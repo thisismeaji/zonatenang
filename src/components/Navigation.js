@@ -13,6 +13,11 @@ export default function Navigation() {
         setIsNavActive(!isNavActive);
     };
 
+    // Function to close the nav when an item is clicked
+    const closeNav = () => {
+        setIsNavActive(false);
+    };
+
     // Event listener to detect clicks outside nav and menu
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -65,10 +70,10 @@ export default function Navigation() {
                     <Link href="/">
                         <h1>ZonaTenang.com</h1>
                     </Link>
-                    <li>
+                    <li onClick={closeNav}>
                         <Link href="/">Beranda</Link>
                     </li>
-                    <li>
+                    <li onClick={closeNav}>
                         <Link href="/tips-dan-trik">Tips dan Trik </Link>
                     </li>
                 </ul>

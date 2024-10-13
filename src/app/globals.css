@@ -177,7 +177,7 @@ nav ul{
   font-family: 'Poppins-regular';
   text-align: center;
   margin-top: -1.5rem;
-  color: var(--accentTwo-color);
+  color: #e2e2e2;
 } 
 
 .hero > div h1{
@@ -201,7 +201,7 @@ nav ul{
   height: 100%;
   border-radius: 5px;
   padding-left: 1rem;
-  border: 1px solid #b8b8b8;
+  border: 1px solid #929292;
   cursor: pointer;
   font-family: 'Poppins-Regular';
   background-color: var(--accentOne-color);
