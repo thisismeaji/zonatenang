@@ -19,6 +19,7 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
+            <p>© 2024 ZonaTenang.com. Hak Cipta Dilindungi.</p>
         </footer>
     )
 }

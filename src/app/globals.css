@@ -177,7 +177,7 @@ nav ul{
   font-family: 'Poppins-regular';
   text-align: center;
   margin-top: -1.5rem;
-  color: #e2e2e2;
+  color: #b8b8b8;
 } 
 
 .hero > div h1{
@@ -227,6 +227,25 @@ nav ul{
   border: 1px solid #b8b8b8;
 }
 
+/* Footer */
+
+footer{
+  padding: 2rem;
+  border-top: 1px solid var(--primary-color);
+}
+
+footer > div ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 3rem;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Poppins-Regular';
+}
 
 @media screen and (max-width:786px) {
 
@@ -289,6 +308,14 @@ nav ul{
   .subscribe button{
     width: 100%;
     height: 40px;
+  }
+
+  /* Footer */
+
+  footer > div ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
   
 }
