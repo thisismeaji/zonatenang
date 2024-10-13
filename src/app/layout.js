@@ -1,5 +1,5 @@
 // layout.js
-import Navigation from "@/components/Navigation";
+import Navigation from "../components/Navigation";
 import "./globals.css";
 
 export default function RootLayout({ children }) {

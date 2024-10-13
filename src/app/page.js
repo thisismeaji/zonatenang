@@ -1,6 +1,5 @@
 // page.js
-import Hero from '@/components/Hero';
-import Head from 'next/head';
+import Hero from "../components/Hero";
 
 export const metadata = {
   title: 'Zonatenang.com: Tempat Nyaman Buat Kamu yang Suka Sendiri',
